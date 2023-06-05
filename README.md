@@ -21,7 +21,7 @@ Combine the bike station data from bike_df with the restaurant data obtained fro
 
 4. Exploratory Data Analysis (EDA):
 
-Perform EDA on the joined dataframe to gain insights into the relationship between bike stations and restaurants. Analyze factors such as the number of bikes, restaurant count, average ratings, and their distributions. Visualize the data through plots, histograms, or maps to identify patterns and trends.
+Perform EDA on the joined dataframe to gain insights into the relationship between bike stations and restaurants. Analyze factors such as the number of bikes, restaurant count, average ratings, and their distributions.
 
 5. Regression Model Building:
 
@@ -53,8 +53,6 @@ During the project, several challenges were encountered:
 2. Data Consistency: Integrating data from multiple sources (bike data, Foursquare, Yelp) posed challenges in terms of data consistency. Each API had its own data structure, naming conventions, and missing data. Ensuring proper data alignment and handling missing or inconsistent data required thorough data cleaning and preprocessing.
 
 3. Joining and Merging Data: Joining and merging data from different sources can be complex, especially when there is no common key or when the data formats are different. Identifying appropriate keys and ensuring accurate merging required careful consideration and validation to create a unified dataset.
-
-4. Model Interpretation: Interpreting the results of the regression model can be challenging, particularly when the model's performance is low or the predictors do not exhibit strong relationships with the target variable. It requires careful analysis and understanding of the model's limitations and potential confounding factors that may influence the results.
 
 ## Future Goals
 
